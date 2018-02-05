@@ -6,8 +6,8 @@ $('a.nav__link[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -68,7 +68,7 @@ initializeClock('#js-countdown-timer', deadline);
 
 
 var fixSections = function() {
-  var
+  var 
     sections
 
   var _init = function() {
@@ -83,7 +83,7 @@ var fixSections = function() {
     window.addEventListener('resize', _inView, false);
   }
 
-  var _inView = function() {
+  var _inView = function() {   
     sections.forEach(function(element,index) {
       _fixSection(element, index);
     });
@@ -97,9 +97,9 @@ var fixSections = function() {
     var elTopFromBottom     = pos.top - window.innerHeight;
     var elBottomFromBottom  = pos.bottom - window.innerHeight;
 
-    if(elTopFromTop <= 0 ) {
+    if(elTopFromTop <= 0 ) { 
         element.classList.add('section_fixed');
-    }
+    } 
     else {
         element.classList.remove('section_fixed');
     }
@@ -112,7 +112,7 @@ var fixSections = function() {
 fixSections.init();
 
 var modal = function() {
-    var
+    var 
         body,
         modalBlock,
         modalToggles,
