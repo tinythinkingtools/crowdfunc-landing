@@ -63,7 +63,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'February 11 2018 23:59:59 GMT+0300';
+var deadline = 'April 13 2018 23:59:59 GMT+0300';
 initializeClock('#js-countdown-timer', deadline);
 
 

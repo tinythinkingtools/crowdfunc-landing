@@ -520,11 +520,11 @@ p {
 }
 @media (min-width:1024px) {
     .hero .wrapper {
-        padding-top: 288px;
+        padding-top: 218px;
         padding-bottom: 164px;
     }
     .hero__title {
-        margin-bottom: 93px;
+        margin-bottom: 63px;
     }
     .hero__img-placeholder {
         display: inline-block;
@@ -532,6 +532,15 @@ p {
     }
     .hero__note_left {
         margin-right: 43px;
+    }
+}
+@media (min-height:880px) {
+    .hero .wrapper {
+        padding-top: 288px;
+        padding-bottom: 164px;
+    }
+    .hero__title {
+        margin-bottom: 93px;
     }
 }
 
